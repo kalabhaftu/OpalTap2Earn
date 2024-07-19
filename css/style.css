@@ -83,7 +83,6 @@ body {
 
 .footer {
     display: flex;
-    z-index: 1000;
     justify-content: center;
     gap: 10px;
     padding: 10px 0;
