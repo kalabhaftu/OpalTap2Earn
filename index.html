@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./image/icon.png" type="image/x-icon">
+    <title>Opal Airdrop</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Opal Airdrop</h1>
+        <p>Tap daily to earn and grow your Opal rewards!</p>
+        <!--
+            <p>Tap every day and unlock exclusive rewards! Join now and start earning precious Opal tokens effortlessly.</p>
+        -->
+    </div>
+
+    <div class="coin">
+        <p class="coin-balance" id="coin-balance">0</p>
+        <button id="coin-button" aria-label="Increase coin value">
+            <img src="./image/level-1.png" alt="Coin image" id="coin-image">
+        </button>
+    </div>
+
+    <div class="footer">
+        <button onclick="location.href='./pages/tasks.html'" id="task"><i class="fa-solid fa-tasks"></i> Task</button>
+        <button onclick="location.href='./pages/ref.html'" id="ref"><i class="fa-solid fa-cog"></i> Ref</button>
+        <button onclick="location.href='./pages/boost.html'" id="boost"><i class="fa-solid fa-rocket"></i> Boost</button>
+        <button onclick="location.href='./pages/About.html'" id="about"><i class="fa-solid fa-info-circle"></i> About</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
