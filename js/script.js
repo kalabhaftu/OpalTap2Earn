@@ -64,3 +64,10 @@ document.addEventListener("DOMContentLoaded", () => {
         coinImage.src = './image/level-1.png';
     };
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    Telegram.WebApp.ready();
+
+    Telegram.WebApp.MainButton.hide();
+    Telegram.WebApp.expand();
+});
