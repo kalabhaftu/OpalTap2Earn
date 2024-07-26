@@ -10,6 +10,9 @@
 <body>
     <div class="container">
         <h3>Coming Soon... </h3>
+              <button onclick="location.href='.././index.html'">
+        <i class="fas fa-times"></i>
+    </button>
         
     </div>   
 
@@ -37,8 +40,22 @@
             flex-direction: column;
         }
 
-        .container img{
-            width: 80px;
+                button {
+           border: none;
+           color: white;
+           cursor: pointer;
+           border-radius: 5px;
+           font-size: 14px;
+           width:75%;
+           margin: 10px;
+           padding: 15px 20px;
+           background: rgba(255, 255, 255, 0.2);
+           transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        button:hover {
+          background: rgba(255, 255, 255, 0.3);
+          transform: translateY(-3px);
         }
     </style>
 </body>
