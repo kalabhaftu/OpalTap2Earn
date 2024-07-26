@@ -3,24 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <title>About Opal Airdrop</title>
 </head>
 <body>
-
     <div class="container">
-      
-        <h3>Tasks <i  class="fa-solid fa-cog"></i></h3>
+        <h3>Tasks <i class="fa-solid fa-cog"></i></h3>
         
-        <button onclick="location.href='tg://resolve?domain=opal_airdrop'"><i class="fas fa-paper-plane"></i> Join Our Telegram Community</button>
+        <button onclick="window.open('tg://resolve?domain=opal_airdrop', '_blank')"><i class="fas fa-paper-plane"></i> Join Our Telegram Community</button>
      
-        <button onclick="location.href='https://www.twitter.com/kalabhaftu'"><i class="fab fa-twitter"></i>Follow us on Twitter </button>
+        <button onclick="window.open('https://www.twitter.com/kalabhaftu', '_blank')"><i class="fab fa-twitter"></i> Follow us on Twitter </button>
         
-        <button><i class="fab fa-youtube"></i>Subscribe to our YouTube channel</button>
-            <button onclick="location.href='.././index.html'">
-        <i class="fas fa-times"></i> Close 
-    </button>
+        <button><i class="fab fa-youtube"></i> Subscribe to our YouTube channel</button>
+        
+        <button onclick="location.href='../index.html'"><i class="fas fa-times"></i> Close</button>
     </div>   
 
     <!-- style here -->
@@ -30,7 +27,7 @@
             padding: 0;                           
         }
 
-        html,body {
+        html, body {
             height: 100%;
             overflow: hidden;
         }
@@ -48,21 +45,21 @@
         }
 
         button {
-           border: none;
-           color: white;
-           cursor: pointer;
-           border-radius: 5px;
-           font-size: 14px;
-           width:75%;
-           margin: 10px;
-           padding: 25px 30px;
-           background: rgba(255, 255, 255, 0.2);
-           transition: background-color 0.3s ease, transform 0.3s ease;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 14px;
+            width: 75%;
+            margin: 10px;
+            padding: 25px 30px;
+            background: rgba(255, 255, 255, 0.2);
+            transition: background-color 0.3s ease, transform 0.3s ease;
         }
 
         button:hover {
-          background: rgba(255, 255, 255, 0.3);
-          transform: translateY(-3px);
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-3px);
         }
     </style>
 </body>
